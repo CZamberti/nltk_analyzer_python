@@ -1,0 +1,425 @@
+Programma 2 - Per ognuno dei due corpora il programma deve estrarre le seguenti informazioni:
+
+•Estrarre ed ordinare in ordine di frequenza decrescente, indicando anche la relativa frequenza:
+
+
+-I 20 token più frequenti escludendo la punteggiatura di FiabeEsopo.txt sono:
+the ----> con frequenza di: 785
+and ----> con frequenza di: 505
+to ----> con frequenza di: 383
+a ----> con frequenza di: 301
+he ----> con frequenza di: 212
+of ----> con frequenza di: 210
+his ----> con frequenza di: 169
+The ----> con frequenza di: 149
+that ----> con frequenza di: 142
+said ----> con frequenza di: 136
+in ----> con frequenza di: 133
+was ----> con frequenza di: 131
+I ----> con frequenza di: 120
+you ----> con frequenza di: 119
+it ----> con frequenza di: 118
+him ----> con frequenza di: 87
+had ----> con frequenza di: 81
+up ----> con frequenza di: 81
+but ----> con frequenza di: 79
+with ----> con frequenza di: 79
+None
+
+
+-I 20 token più frequenti escludendo la punteggiatura di TurningPoint.txt sono:
+the ----> con frequenza di: 295
+of ----> con frequenza di: 147
+and ----> con frequenza di: 86
+to ----> con frequenza di: 85
+a ----> con frequenza di: 84
+in ----> con frequenza di: 64
+The ----> con frequenza di: 56
+was ----> con frequenza di: 56
+Merrick ----> con frequenza di: 54
+his ----> con frequenza di: 54
+that ----> con frequenza di: 51
+I ----> con frequenza di: 47
+he ----> con frequenza di: 46
+He ----> con frequenza di: 44
+you ----> con frequenza di: 44
+it ----> con frequenza di: 42
+Erikson ----> con frequenza di: 38
+is ----> con frequenza di: 37
+Creche ----> con frequenza di: 32
+n't ----> con frequenza di: 30
+None
+
+
+------------------------------------
+
+
+-Le 10 PoS più frequenti (Part-of-Speech) di FiabeEsopo.txt sono:
+(u'the', 'DT') ----> con frequenza di: 785
+(u',', ',') ----> con frequenza di: 711
+(u'.', '.') ----> con frequenza di: 577
+(u'and', 'CC') ----> con frequenza di: 505
+(u'to', 'TO') ----> con frequenza di: 383
+(u'"', ':') ----> con frequenza di: 355
+(u'a', 'DT') ----> con frequenza di: 301
+(u'he', 'PRP') ----> con frequenza di: 212
+(u'of', 'IN') ----> con frequenza di: 210
+(u'his', 'PRP$') ----> con frequenza di: 169
+None
+
+
+-Le 10 PoS più frequenti (Part-of-Speech) di TurningPoint.txt sono:
+(u'.', '.') ----> con frequenza di: 373
+(u'the', 'DT') ----> con frequenza di: 295
+(u',', ',') ----> con frequenza di: 253
+(u'"', ':') ----> con frequenza di: 177
+(u'of', 'IN') ----> con frequenza di: 147
+(u'and', 'CC') ----> con frequenza di: 86
+(u'to', 'TO') ----> con frequenza di: 85
+(u'a', 'DT') ----> con frequenza di: 84
+(u'in', 'IN') ----> con frequenza di: 64
+(u'was', 'VBD') ----> con frequenza di: 56
+None
+
+
+------------------------------------
+
+
+-I 10 trigrammi di PoS più frequenti che non contengono punteggiatura e congiunzioni di FiabeEsopo.txt sono:
+
+((u'"', 'NNP'), (u'said', 'VBD'), (u'the', 'DT')) con frequenza di: 14 
+
+((u'said', 'VBD'), (u'the', 'DT'), (u'Fox', 'NNP')) con frequenza di: 8 
+
+((u'up', 'RP'), (u'to', 'TO'), (u'him', 'PRP')) con frequenza di: 6 
+
+((u'Then', 'NNP'), (u'he', 'PRP'), (u'took', 'VBD')) con frequenza di: 6 
+
+((u'to', 'TO'), (u'the', 'DT'), (u'Lion', 'NNP')) con frequenza di: 5 
+
+((u'said', 'VBD'), (u'the', 'DT'), (u'Wolf', 'NNP')) con frequenza di: 5 
+
+((u'took', 'VBD'), (u'another', 'DT'), (u'pebble', 'JJ')) con frequenza di: 5 
+
+((u'he', 'PRP'), (u'took', 'VBD'), (u'another', 'DT')) con frequenza di: 5 
+
+((u'"', 'NN'), (u'The', 'DT'), (u'Fox', 'NNP')) con frequenza di: 5 
+
+((u'"', 'NNP'), (u'said', 'VBD'), (u'he', 'PRP')) con frequenza di: 5 
+
+
+
+-I 10 trigrammi di PoS più frequenti che non contengono punteggiatura e congiunzioni di TurningPoint.txt sono: 
+((u'"', 'NNP'), (u'he', 'PRP'), (u'said', 'VBD')) con frequenza di: 5 
+
+((u'Virginia', 'NNP'), (u'Merrick', 'NNP'), (u'said', 'VBD')) con frequenza di: 4 
+
+((u'"', 'NNP'), (u'Merrick', 'NNP'), (u'said', 'VBD')) con frequenza di: 4 
+
+((u'is', 'VBZ'), (u'the', 'DT'), (u'only', 'JJ')) con frequenza di: 4 
+
+((u'the', 'DT'), (u'Prophet', 'NNP'), (u"'s", 'POS')) con frequenza di: 3 
+
+((u'to', 'TO'), (u'the', 'DT'), (u'Creche', 'NNP')) con frequenza di: 3 
+
+((u'the', 'DT'), (u'Atom', 'NNP'), (u'War', 'NNP')) con frequenza di: 3 
+
+((u'We', 'PRP'), (u'ca', 'MD'), (u"n't", 'RB')) con frequenza di: 3 
+
+((u'"', 'NNP'), (u'Virginia', 'NNP'), (u'Merrick', 'NNP')) con frequenza di: 3 
+
+((u'might', 'MD'), (u'have', 'VB'), (u'been', 'VBN')) con frequenza di: 2 
+
+************************************
+
+
+•Estrarre ed ordinare i 20 bigrammi composti solo di Aggettivi e Sostantivi (dove ogni token deve avere una frequenza maggiore di 3):
+
+
+-I 20 bigrammi con frequenza massima di FiabeEsopo.txt sono (contando la frequenza dei bigrammi e dei token che lo compongono):
+
+((u'Town', 'NNP'), (u'Mouse', 'NNP')) con frequenza di: 5 (u'Town', 'NNP') 5 (u'Mouse', 'NNP') 15 
+
+((u'Country', 'NNP'), (u'Mouse', 'NNP')) con frequenza di: 4 (u'Country', 'NNP') 4 (u'Mouse', 'NNP') 15 
+
+((u'little', 'JJ'), (u'Mouse', 'NNP')) con frequenza di: 3 (u'little', 'JJ') 11 (u'Mouse', 'NNP') 15 
+
+((u'"', 'NN'), (u'Ah', 'NNP')) con frequenza di: 3 (u'"', 'NN') 94 (u'Ah', 'NNP') 14 
+
+((u'WARRA', 'NNP'), (u'WARRA', 'NNP')) con frequenza di: 3 (u'WARRA', 'NNP') 4 (u'WARRA', 'NNP') 4 
+
+((u'old', 'JJ'), (u'man', 'NN')) con frequenza di: 2 (u'old', 'JJ') 18 (u'man', 'NN') 12 
+
+((u'fine', 'NN'), (u'day', 'NN')) con frequenza di: 2 (u'fine', 'NN') 8 (u'day', 'NN') 28 
+
+((u'An', 'NNP'), (u'old', 'JJ')) con frequenza di: 2 (u'An', 'NNP') 4 (u'old', 'JJ') 18 
+
+((u'good', 'JJ'), (u'meal', 'NN')) con frequenza di: 2 (u'good', 'JJ') 9 (u'meal', 'NN') 6 
+
+((u'King', 'NNP'), (u'Lion', 'NNP')) con frequenza di: 2 (u'King', 'NNP') 10 (u'Lion', 'NNP') 53 
+
+((u'old', 'JJ'), (u'days', 'NNS')) con frequenza di: 2 (u'old', 'JJ') 18 (u'days', 'NNS') 7 
+
+((u'The', 'NNP'), (u'Lion', 'NNP')) con frequenza di: 2 (u'The', 'NNP') 8 (u'Lion', 'NNP') 53 
+
+((u'good', 'JJ'), (u'news', 'NN')) con frequenza di: 2 (u'good', 'JJ') 9 (u'news', 'NN') 4 
+
+((u'other', 'JJ'), (u'animals', 'NNS')) con frequenza di: 2 (u'other', 'JJ') 18 (u'animals', 'NNS') 8 
+
+((u'poor', 'JJ'), (u'little', 'JJ')) con frequenza di: 2 (u'poor', 'JJ') 5 (u'little', 'JJ') 11 
+
+((u'old', 'JJ'), (u'mouse', 'NN')) con frequenza di: 2 (u'old', 'JJ') 18 (u'mouse', 'NN') 6 
+
+((u'hot', 'JJ'), (u'summer', 'NN')) con frequenza di: 2 (u'hot', 'JJ') 5 (u'summer', 'NN') 5 
+
+((u'other', 'JJ'), (u'birds', 'NNS')) con frequenza di: 2 (u'other', 'JJ') 18 (u'birds', 'NNS') 5 
+
+((u'time', 'NN'), (u'last', 'JJ')) con frequenza di: 1 (u'time', 'NN') 27 (u'last', 'JJ') 28 
+
+((u'Frogs', 'NNP'), (u'The', 'NNP')) con frequenza di: 1 (u'Frogs', 'NNP') 9 (u'The', 'NNP') 8 
+
+
+
+-I 20 bigrammi con frequenza massima di TurningPoint.txt sono (contando la frequenza dei bigrammi e dei token che lo compongono): 
+
+((u'Sweyn', 'NNP'), (u'Erikson', 'NNP')) con frequenza di: 10 (u'Sweyn', 'NNP') 10 (u'Erikson', 'NNP') 38 
+
+((u'Virginia', 'NNP'), (u'Merrick', 'NNP')) con frequenza di: 7 (u'Virginia', 'NNP') 14 (u'Merrick', 'NNP') 54 
+
+((u'Han', 'NNP'), (u'Merrick', 'NNP')) con frequenza di: 6 (u'Han', 'NNP') 22 (u'Merrick', 'NNP') 54 
+
+((u'"', 'NNP'), (u'Merrick', 'NNP')) con frequenza di: 6 (u'"', 'NNP') 39 (u'Merrick', 'NNP') 54 
+
+((u'Human', 'NNP'), (u'Supremacy', 'NNP')) con frequenza di: 5 (u'Human', 'NNP') 5 (u'Supremacy', 'NNP') 5 
+
+((u'human', 'JJ'), (u'beings', 'NNS')) con frequenza di: 4 (u'human', 'JJ') 8 (u'beings', 'NNS') 7 
+
+((u'"', 'NNP'), (u'Virginia', 'NNP')) con frequenza di: 4 (u'"', 'NNP') 39 (u'Virginia', 'NNP') 14 
+
+((u'_', 'NNP'), (u'"', 'NNP')) con frequenza di: 3 (u'_', 'NNP') 5 (u'"', 'NNP') 39 
+
+((u'homo', 'NN'), (u'sapiens', 'NNS')) con frequenza di: 3 (u'homo', 'NN') 4 (u'sapiens', 'NNS') 4 
+
+((u'human', 'NN'), (u'beings', 'NNS')) con frequenza di: 2 (u'human', 'NN') 5 (u'beings', 'NNS') 7 
+
+((u'whole', 'JJ'), (u'truth', 'NN')) con frequenza di: 2 (u'whole', 'JJ') 5 (u'truth', 'NN') 4 
+
+((u'"', 'NN'), (u'Merrick', 'NNP')) con frequenza di: 2 (u'"', 'NN') 42 (u'Merrick', 'NNP') 54 
+
+((u'"', 'NNP'), (u'The', 'NNP')) con frequenza di: 2 (u'"', 'NNP') 39 (u'The', 'NNP') 4 
+
+((u'His', 'NNP'), (u'power', 'NN')) con frequenza di: 1 (u'His', 'NNP') 4 (u'power', 'NN') 5 
+
+((u'"', 'NN'), (u'Han', 'NNP')) con frequenza di: 1 (u'"', 'NN') 42 (u'Han', 'NNP') 22 
+
+((u'control', 'NN'), (u'work', 'NN')) con frequenza di: 1 (u'control', 'NN') 4 (u'work', 'NN') 4 
+
+((u'"', 'NNP'), (u'Han', 'NNP')) con frequenza di: 1 (u'"', 'NNP') 39 (u'Han', 'NNP') 22 
+
+((u'human', 'NN'), (u'brain', 'NN')) con frequenza di: 1 (u'human', 'NN') 5 (u'brain', 'NN') 4 
+
+((u'"', 'NN'), (u'androids', 'NNS')) con frequenza di: 1 (u'"', 'NN') 42 (u'androids', 'NNS') 7 
+
+((u'more', 'JJR'), (u'words', 'NNS')) con frequenza di: 1 (u'more', 'JJR') 4 (u'words', 'NNS') 6 
+
+
+
+------------------------------------
+
+
+-La probabilità condizionata massima di FiabeEsopo.txt è di:
+((u'Town', 'NNP'), (u'Mouse', 'NNP')) con probabilità di: 1.0
+((u'Country', 'NNP'), (u'Mouse', 'NNP')) con probabilità di: 1.0
+((u'WARRA', 'NNP'), (u'WARRA', 'NNP')) con probabilità di: 0.75
+((u'An', 'NNP'), (u'old', 'JJ')) con probabilità di: 0.5
+((u'hot', 'JJ'), (u'summer', 'NN')) con probabilità di: 0.4
+((u'poor', 'JJ'), (u'little', 'JJ')) con probabilità di: 0.4
+((u'little', 'JJ'), (u'Mouse', 'NNP')) con probabilità di: 0.272727272727
+((u'fine', 'NN'), (u'day', 'NN')) con probabilità di: 0.25
+((u'A', 'NNP'), (u'Lion', 'NNP')) con probabilità di: 0.25
+((u'axe', 'NN'), (u'head', 'NN')) con probabilità di: 0.25
+((u'The', 'NNP'), (u'Lion', 'NNP')) con probabilità di: 0.25
+((u'bad', 'JJ'), (u'turn', 'NN')) con probabilità di: 0.25
+((u'A', 'NNP'), (u'young', 'JJ')) con probabilità di: 0.25
+((u'Mother', 'NNP'), (u'A', 'NNP')) con probabilità di: 0.25
+((u'Goat', 'NNP'), (u'By', 'NNP')) con probabilità di: 0.25
+((u'terrible', 'JJ'), (u'voice', 'NN')) con probabilità di: 0.25
+((u'bad', 'JJ'), (u'way', 'NN')) con probabilità di: 0.25
+((u'An', 'NNP'), (u'Eagle', 'NNP')) con probabilità di: 0.25
+((u'His', 'NNP'), (u'Mother', 'NNP')) con probabilità di: 0.25
+((u'Reed', 'NNP'), (u'"', 'NNP')) con probabilità di: 0.25
+
+
+-La probabilità condizionata massima di TurningPoint.txt è di:
+((u'Sweyn', 'NNP'), (u'Erikson', 'NNP')) con probabilità di: 1.0
+((u'Human', 'NNP'), (u'Supremacy', 'NNP')) con probabilità di: 1.0
+((u'homo', 'NN'), (u'sapiens', 'NNS')) con probabilità di: 0.75
+((u'_', 'NNP'), (u'"', 'NNP')) con probabilità di: 0.6
+((u'Virginia', 'NNP'), (u'Merrick', 'NNP')) con probabilità di: 0.5
+((u'human', 'JJ'), (u'beings', 'NNS')) con probabilità di: 0.5
+((u'human', 'NN'), (u'beings', 'NNS')) con probabilità di: 0.4
+((u'whole', 'JJ'), (u'truth', 'NN')) con probabilità di: 0.4
+((u'Han', 'NNP'), (u'Merrick', 'NNP')) con probabilità di: 0.272727272727
+((u'His', 'NNP'), (u'power', 'NN')) con probabilità di: 0.25
+((u'control', 'NN'), (u'work', 'NN')) con probabilità di: 0.25
+((u'His', 'NNP'), (u'wife', 'NN')) con probabilità di: 0.25
+((u'more', 'JJR'), (u'words', 'NNS')) con probabilità di: 0.25
+((u'own', 'JJ'), (u'way', 'NN')) con probabilità di: 0.25
+((u'Jon', 'NNP'), (u'Graves', 'NNP')) con probabilità di: 0.25
+((u'android', 'JJ'), (u'life', 'NN')) con probabilità di: 0.25
+((u'human', 'NN'), (u'brain', 'NN')) con probabilità di: 0.2
+((u'Director', 'NNP'), (u'Han', 'NNP')) con probabilità di: 0.2
+((u'wrong', 'JJ'), (u'man', 'NN')) con probabilità di: 0.2
+((u'whole', 'JJ'), (u'culture', 'NN')) con probabilità di: 0.2
+
+
+------------------------------------
+
+
+-La forza associativa massima (calcolata in termini di Local Mutual Information) di FiabeEsopo.txt è:
+((u'Town', 'NNP'), (u'Mouse', 'NNP')) con forza associativa di: 49.3286663543
+((u'Country', 'NNP'), (u'Mouse', 'NNP')) con forza associativa di: 39.4629330834
+((u'WARRA', 'NNP'), (u'WARRA', 'NNP')) con forza associativa di: 34.0727591015
+((u'little', 'JJ'), (u'Mouse', 'NNP')) con forza associativa di: 23.9737924588
+((u'hot', 'JJ'), (u'summer', 'NN')) con forza associativa di: 20.2575353534
+((u'good', 'JJ'), (u'news', 'NN')) con forza associativa di: 19.20539773
+((u'good', 'JJ'), (u'meal', 'NN')) con forza associativa di: 18.0354727286
+((u'poor', 'JJ'), (u'little', 'JJ')) con forza associativa di: 17.9825283059
+((u'An', 'NNP'), (u'old', 'JJ')) con forza associativa di: 17.20539773
+((u'other', 'JJ'), (u'birds', 'NNS')) con forza associativa di: 16.5615415403
+((u'old', 'JJ'), (u'mouse', 'NN')) con forza associativa di: 16.0354727286
+((u'old', 'JJ'), (u'days', 'NNS')) con forza associativa di: 15.5906878859
+((u'other', 'JJ'), (u'animals', 'NNS')) con forza associativa di: 15.20539773
+((u'"', 'NN'), (u'Ah', 'NNP')) con forza associativa di: 14.9869277803
+((u'old', 'JJ'), (u'man', 'NN')) con forza associativa di: 14.0354727286
+((u'fine', 'NN'), (u'day', 'NN')) con forza associativa di: 13.9305378888
+((u'The', 'NNP'), (u'Lion', 'NNP')) con forza associativa di: 12.0894068238
+((u'King', 'NNP'), (u'Lion', 'NNP')) con forza associativa di: 11.445550634
+((u'bad', 'JJ'), (u'turn', 'NN')) con forza associativa di: 9.77262386646
+((u'Mother', 'NNP'), (u'A', 'NNP')) con forza associativa di: 9.77262386646
+
+
+-La forza associativa massima (calcolata in termini di Local Mutual Information) di TurningPoint.txt è:
+((u'Sweyn', 'NNP'), (u'Erikson', 'NNP')) con forza associativa di: 72.5589822455
+((u'Human', 'NNP'), (u'Supremacy', 'NNP')) con forza associativa di: 50.9094882155
+((u'Virginia', 'NNP'), (u'Merrick', 'NNP')) con forza associativa di: 40.2425676508
+((u'human', 'JJ'), (u'beings', 'NNS')) con forza associativa di: 34.7858832638
+((u'homo', 'NN'), (u'sapiens', 'NNS')) con forza associativa di: 30.2663647162
+((u'Han', 'NNP'), (u'Merrick', 'NNP')) con forza associativa di: 29.2468147075
+((u'"', 'NNP'), (u'Merrick', 'NNP')) con forza associativa di: 24.2909911061
+((u'"', 'NNP'), (u'Virginia', 'NNP')) con forza associativa di: 21.6442743883
+((u'_', 'NNP'), (u'"', 'NNP')) con forza associativa di: 19.4443737749
+((u'whole', 'JJ'), (u'truth', 'NN')) con forza associativa di: 18.3637952862
+((u'human', 'NN'), (u'beings', 'NNS')) con forza associativa di: 16.7490854421
+((u'"', 'NNP'), (u'The', 'NNP')) con forza associativa di: 12.4368470383
+((u'control', 'NN'), (u'work', 'NN')) con forza associativa di: 8.503825738
+((u'His', 'NNP'), (u'power', 'NN')) con forza associativa di: 8.18189764311
+((u'human', 'NN'), (u'brain', 'NN')) con forza associativa di: 8.18189764311
+((u'more', 'JJR'), (u'words', 'NNS')) con forza associativa di: 7.91886323727
+((u'whole', 'JJ'), (u'culture', 'NN')) con forza associativa di: 7.85996954822
+((u'own', 'JJ'), (u'way', 'NN')) con forza associativa di: 7.69647081594
+((u'only', 'JJ'), (u'thing', 'NN')) con forza associativa di: 7.69647081594
+((u'Fanatics', 'NNP'), (u'control', 'NN')) con forza associativa di: 7.503825738
+
+
+************************************
+
+
+•Trovare la frase con probabilità più alta. La frase deve essere lunga almeno 10 token e ogni token deve avere una frequenza maggiore di 3. La probabilità deve essere calcolata attraverso un modello di Markov di ordine 1 che sfrutta statistiche estratte dal corpus che contiene la frase.
+
+
+-La frase con probabilità più alta di FiabeEsopo.txt è:
+"  So he blew himself out, and blew himself out, and blew
+himself out. con probabilità di: 0.0402286530904
+-La frase con probabilità più alta di TurningPoint.txt è:
+"We can't keep him out
+and you know it. con probabilità di: 0.0454545454545
+
+
+************************************
+•Estrarre, dopo aver individuato e classificato le Entità Nominate (NE) presenti nel testo:
+
+
+-I 20 nomi propri di persona più frequenti (tipi), ordinati per frequenza di: FiabeEsopo.txt sono:
+ Fox con frequenza di: 49
+ Androcles con frequenza di: 8
+ Wolf con frequenza di: 5
+ Jupiter con frequenza di: 5
+ Nay con frequenza di: 4
+ Cousin con frequenza di: 3
+ Venus con frequenza di: 3
+ Hercules con frequenza di: 3
+ Man con frequenza di: 2
+ Wife con frequenza di: 2
+ Jove con frequenza di: 2
+ Beware con frequenza di: 2
+ Mouse con frequenza di: 2
+ Death con frequenza di: 2
+ Gratitude con frequenza di: 2
+ Alas con frequenza di: 2
+ Pray con frequenza di: 2
+ Farmer White con frequenza di: 1
+ Murderer con frequenza di: 1
+ Juno con frequenza di: 1
+
+
+-I 20 nomi propri di persona più frequenti (tipi), ordinati per frequenza di: TurningPoint.txt sono:
+ Merrick con frequenza di: 43
+ Erikson con frequenza di: 27
+ Han con frequenza di: 16
+ Sweyn Erikson con frequenza di: 10
+ Man con frequenza di: 9
+ Graves con frequenza di: 9
+ Han Merrick con frequenza di: 6
+ Prophet con frequenza di: 4
+ Jon con frequenza di: 3
+ Virginia Merrick con frequenza di: 3
+ Soulless con frequenza di: 2
+ Look con frequenza di: 2
+ History con frequenza di: 2
+ Anno Domini con frequenza di: 2
+ Very con frequenza di: 1
+ Ability con frequenza di: 1
+ Drugs con frequenza di: 1
+ Someone con frequenza di: 1
+ Births con frequenza di: 1
+ Director con frequenza di: 1
+
+
+------------------------------------
+
+
+-I 20 nomi propri di luogo più frequenti (tipi), ordinati per frequenza di: FiabeEsopo.txt sono:
+ Donkey con frequenza di: 6
+ Lapdog con frequenza di: 3
+ Nightingale con frequenza di: 3
+ Beasts con frequenza di: 2
+ Jove con frequenza di: 2
+ Crow con frequenza di: 2
+ Fish con frequenza di: 2
+ Grasshopper con frequenza di: 2
+ Horse con frequenza di: 2
+ Eagle con frequenza di: 1
+ Maiden con frequenza di: 1
+ Hunter con frequenza di: 1
+ Bundle con frequenza di: 1
+ Grapes con frequenza di: 1
+ Fisher con frequenza di: 1
+ Strong con frequenza di: 1
+ Dog con frequenza di: 1
+ Priest con frequenza di: 1
+ Mother con frequenza di: 1
+ Wolf con frequenza di: 1
+
+
+-I 20 nomi propri di luogo più frequenti (tipi), ordinati per frequenza di: TurningPoint.txt sono:
+ Virginia con frequenza di: 6
+ Ten con frequenza di: 3
+ Bland con frequenza di: 2
+ Francisco con frequenza di: 1
+ Semantic con frequenza di: 1
+ Torquemada con frequenza di: 1
+ Long con frequenza di: 1
+ Fanatics con frequenza di: 1
+ Merrick con frequenza di: 1
+ Graves con frequenza di: 1

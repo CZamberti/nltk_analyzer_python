@@ -1,0 +1,138 @@
+Programma 1 - Confrontare i due testi sulla base delle seguenti informazioni statistiche:
+
+
+▶Numero tokens:
+
+
+•Il corpus FiabeEsopo.txt è lungo 13995 tokens
+
+
+•Il corpus TurningPoint.txt è lungo 5808 tokens
+
+
+-Il corpus FiabeEsopo.txt è più lungo di TurningPoint.txt
+
+
+************************************************
+
+
+▶Lunghezza media dei token in termini di caratteri (escludendo la punteggiatura):
+
+
+•La lunghezza media di token in termini di caratteri di FiabeEsopo.txt è di 3.48595927117
+
+
+•La lunghezza media di token in termini di caratteri di TurningPoint.txt è di 3.91907713499
+
+
+-I tokens di TurningPoint.txt sono più lunghi di quelli di FiabeEsopo.txt
+
+
+************************************************
+
+
+▶Lunghezza media delle frasi in termini di token:
+
+
+•La lunghezza media delle frasi in termini di token di FiabeEsopo.txt è di 21.8671875
+
+
+•La lunghezza media delle frasi in termini di token di TurningPoint.txt è di 13.0224215247
+
+
+-I tokens di FiabeEsopo.txt sono più lunghi di quelli di TurningPoint.txt
+
+
+************************************************
+
+
+▶Grandezza del vocabolario del testo:
+
+
+•Il vocabolario di FiabeEsopo.txt contiene 2205 parole tipo
+
+
+•Il vocabolario di TurningPoint.txt contiene 1525 parole tipo
+
+
+-Il corpus FiabeEsopo.txt ha il vocabolario più grande di TurningPoint.txt
+
+
+************************************************
+
+
+▶Distribuzione degli hapax sui primi 3000 token:
+
+
+•La distribuzione degli hapax sui primi 3000 tokens di FiabeEsopo.txt è di 1138 hapax
+
+
+•La distribuzione degli hapax sui primi 3000 tokens di TurningPoint.txt è di 942 hapax
+
+
+-Il corpus FiabeEsopo.txt ha  sui primi 3000 tokens una frequenza dei hapax più alta di TurningPoint.txt
+
+
+************************************************
+
+
+▶Ricchezza lessicale calcolata attraverso la Type Token Ratio (TTR) sui primi 3000 token:
+
+
+•La ricchezza lessicale, sui primi 3000 tokens di FiabeEsopo.txt è di: 0.266666666667
+
+
+•La ricchezza lessicale, sui primi 3000 tokens di TurningPoint.txt è di: 0.313666666667
+
+
+-Il corpus TurningPoint.txt ha sui primi 3000 tokens una ricchezza lessicale più alta rispetto a FiabeEsopo.txt
+
+
+************************************************
+
+
+▶Distribuzione (in termini percentuali) di Sostantivi, Aggettivi, Verbi e Preposizioni:
+
+
+•La distribuzione in termini di sostantivi, aggettivi, verbi e preposizioni nel file FiabeEsopo.txt è del: 
+- 27.3004992176 % per i sostantivi 
+- 3.66589672901 % per gli aggettivi 
+- 8.93376052455 % per i verbi 
+- 16.0047686462 % per le preposizioni 
+
+
+
+•La distribuzione in termini di sostantivi, aggettivi, verbi e preposizioni nel file TurningPoint.txt è del: 
+- 35.2529898804 % per i sostantivi 
+- 4.34222631095 % per gli aggettivi 
+- 9.3100275989 % per i verbi 
+- 15.4185832567 % per le preposizioni 
+
+
+
+-Il corpus TurningPoint.txt ha una distribuzione in termini di sostantivi maggiore di FiabeEsopo.txt
+
+
+-Il corpus TurningPoint.txt ha una distribuzione in termini di aggettivi maggiore di FiabeEsopo.txt
+
+
+-Il corpus TurningPoint.txt ha una distribuzione in termini di verbi maggiore di FiabeEsopo.txt
+
+
+-Il corpus FiabeEsopo.txt ha una distribuzione in termini di preposizioni maggiore di TurningPoint.txt
+
+
+************************************************
+
+
+▶Densità lessicale, calcolata come il rapporto tra il numero totale di occorrenze nel testo di Sostantivi, Verbi, Avverbi, Aggettivi e il numero totale di parole nel testo (ad esclusione dei segni di punteggiatura marcati con POS "," "."):
+
+
+•La densità lessicale in termini di sostantivi, verbi, avverbi e aggettivi di FiabeEsopo.txt è di 0.462121725002
+
+
+•La densità lessicale in termini di sostantivi, verbi, avverbi e aggettivi di TurningPoint.txt è di 0.517999674214
+
+
+-La densità lessicale in termini di sostantivi, verbi, avverbi e aggettivi di TurningPoint.txt è maggiore di quella di FiabeEsopo.txt
+************************************************
